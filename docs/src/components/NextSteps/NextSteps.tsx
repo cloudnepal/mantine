@@ -17,7 +17,7 @@ export function NextSteps() {
       <LinkComponent className={classes.link} key={index} {...linkProps}>
         <Group noWrap>
           <ThemeIcon size={34} color={item.color} radius="md">
-            <item.icon size={20} stroke={1.5} />
+            <item.icon size={20} stroke="1.5" />
           </ThemeIcon>
 
           <Text weight={500} size="lg">

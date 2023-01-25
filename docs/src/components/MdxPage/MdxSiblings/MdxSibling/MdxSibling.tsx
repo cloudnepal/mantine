@@ -17,7 +17,7 @@ export function MdxSibling({ data, type, className }: MdxSiblingProps) {
 
   return (
     <Link to={data.slug} className={cx(classes.control, classes[type], className)}>
-      {type === 'prev' && <IconArrowLeft size={22} stroke={1.5} />}
+      {type === 'prev' && <IconArrowLeft size={22} stroke="1.5" />}
 
       <div className={classes.body}>
         <Text size="lg" align={type === 'next' ? 'left' : 'right'}>
@@ -28,7 +28,7 @@ export function MdxSibling({ data, type, className }: MdxSiblingProps) {
         </Text>
       </div>
 
-      {type === 'next' && <IconArrowRight size={22} stroke={1.5} />}
+      {type === 'next' && <IconArrowRight size={22} stroke="1.5" />}
     </Link>
   );
 }

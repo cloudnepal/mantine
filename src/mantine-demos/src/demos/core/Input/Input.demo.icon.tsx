@@ -27,12 +27,12 @@ function Demo() {
 function Demo() {
   return (
     <Input
-      icon={<IconBrandTwitter size={16} stroke={1.5} />}
+      icon={<IconBrandTwitter size={16} stroke="1.5" />}
       placeholder="Your twitter"
       rightSection={
         <Tooltip label="This is public" position="top-end" withArrow>
           <div>
-            <IconAlertCircle size={18} stroke={1.5} style={{ display: 'block', opacity: 0.5 }} />
+            <IconAlertCircle size={18} stroke="1.5" style={{ display: 'block', opacity: 0.5 }} />
           </div>
         </Tooltip>
       }

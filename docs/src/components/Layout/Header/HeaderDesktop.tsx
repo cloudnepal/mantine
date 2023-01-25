@@ -27,7 +27,7 @@ export function HeaderDesktop() {
       component="a"
       href={item.link}
       target="_blank"
-      rightSection={<IconExternalLink size={14} stroke={1.5} />}
+      rightSection={<IconExternalLink size={14} stroke="1.5" />}
     >
       <b>{item.v}</b>{' '}
       <Text span color="dimmed" fz="xs">

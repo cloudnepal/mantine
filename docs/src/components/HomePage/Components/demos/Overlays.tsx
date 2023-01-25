@@ -36,13 +36,13 @@ function TabsDemo() {
   return (
     <Tabs defaultValue="gallery">
       <Tabs.List>
-        <Tabs.Tab value="gallery" icon={<IconPhoto stroke={1.5} size={14} />}>
+        <Tabs.Tab value="gallery" icon={<IconPhoto stroke="1.5" size={14} />}>
           Gallery
         </Tabs.Tab>
-        <Tabs.Tab value="messages" icon={<IconMessageCircle stroke={1.5} size={14} />}>
+        <Tabs.Tab value="messages" icon={<IconMessageCircle stroke="1.5" size={14} />}>
           Messages
         </Tabs.Tab>
-        <Tabs.Tab value="settings" icon={<IconSettings stroke={1.5} size={14} />}>
+        <Tabs.Tab value="settings" icon={<IconSettings stroke="1.5" size={14} />}>
           Settings
         </Tabs.Tab>
       </Tabs.List>

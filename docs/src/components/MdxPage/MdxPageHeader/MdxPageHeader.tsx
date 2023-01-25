@@ -65,7 +65,7 @@ export function MdxPageHeader({ frontmatter }: MdxPageProps) {
         {frontmatter.date && (
           <LinkItem
             label="Release date"
-            icon={<IconCalendar size={14} stroke={1.5} />}
+            icon={<IconCalendar size={14} stroke="1.5" />}
             link={frontmatter.release}
           >
             {frontmatter.date}
@@ -75,7 +75,7 @@ export function MdxPageHeader({ frontmatter }: MdxPageProps) {
         {frontmatter.docs && (
           <LinkItem
             label="Docs"
-            icon={<IconPencil size={14} stroke={1.5} />}
+            icon={<IconPencil size={14} stroke="1.5" />}
             link={`${DOCS_BASE}/${frontmatter.docs}`}
           >
             Edit this page
@@ -98,7 +98,7 @@ export function MdxPageHeader({ frontmatter }: MdxPageProps) {
         {frontmatter.license && (
           <LinkItem
             label="License"
-            icon={<IconLicense size={14} stroke={1.5} />}
+            icon={<IconLicense size={14} stroke="1.5" />}
             link="https://github.com/mantinedev/mantine/blob/master/LICENSE"
           >
             MIT

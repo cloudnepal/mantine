@@ -24,7 +24,7 @@ export function StylesApi({ components }: StylesApiProps) {
         <GatsbyLink to="/styles/styles-api/">
           <Group spacing={4}>
             <span>Learn more about Styles API</span>
-            <IconArrowRight size={14} stroke={1.5} />
+            <IconArrowRight size={14} stroke="1.5" />
           </Group>
         </GatsbyLink>
       </Box>

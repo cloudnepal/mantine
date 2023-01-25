@@ -37,7 +37,7 @@ function Demo() {
   return (
     <>
       <Slider
-        thumbChildren={<IconHeart size={16} stroke={1.5} />}
+        thumbChildren={<IconHeart size={16} stroke="1.5" />}
         color="red"
         label={null}
         defaultValue={40}
@@ -53,8 +53,8 @@ function Demo() {
         defaultValue={[20, 60]}
         thumbSize={26}
         thumbChildren={[
-          <IconHeart size={16} stroke={1.5} key="1" />,
-          <IconHeartBroken size={16} stroke={1.5} key="2" />,
+          <IconHeart size={16} stroke="1.5" key="1" />,
+          <IconHeartBroken size={16} stroke="1.5" key="2" />,
         ]}
       />
     </>

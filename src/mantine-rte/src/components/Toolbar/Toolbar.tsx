@@ -56,7 +56,7 @@ export function Toolbar({
             title={labels[item]}
             noActive={(CONTROLS[item] as any).noActive}
           >
-            <Icon size={18} stroke={1.5} />
+            <Icon size={18} stroke="1.5" />
           </ToolbarButton>
         );
       });

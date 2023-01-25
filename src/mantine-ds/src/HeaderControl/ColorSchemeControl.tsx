@@ -12,9 +12,9 @@ export function ColorSchemeControl() {
       tooltip={`${colorScheme === 'dark' ? 'Light' : 'Dark'} mode`}
     >
       {colorScheme === 'dark' ? (
-        <IconSun size={22} stroke={1.5} />
+        <IconSun size={22} stroke="1.5" />
       ) : (
-        <IconMoon size={22} stroke={1.5} />
+        <IconMoon size={22} stroke="1.5" />
       )}
     </HeaderControl>
   );

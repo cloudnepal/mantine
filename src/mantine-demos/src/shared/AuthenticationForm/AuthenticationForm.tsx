@@ -97,7 +97,7 @@ export function AuthenticationForm({
           required
           placeholder="Your email"
           label="Email"
-          icon={<IconAt size={16} stroke={1.5} />}
+          icon={<IconAt size={16} stroke="1.5" />}
           {...form.getInputProps('email')}
         />
 
@@ -106,7 +106,7 @@ export function AuthenticationForm({
           required
           placeholder="Password"
           label="Password"
-          icon={<IconLock size={16} stroke={1.5} />}
+          icon={<IconLock size={16} stroke="1.5" />}
           {...form.getInputProps('password')}
         />
 
@@ -116,7 +116,7 @@ export function AuthenticationForm({
             required
             label="Confirm Password"
             placeholder="Confirm password"
-            icon={<IconLock size={16} stroke={1.5} />}
+            icon={<IconLock size={16} stroke="1.5" />}
             {...form.getInputProps('confirmPassword')}
           />
         )}

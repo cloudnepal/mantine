@@ -14,9 +14,9 @@ export function DirectionControl({ direction, toggleDirection }: DirectionContro
       tooltip={`${direction === 'ltr' ? 'RTL' : 'LTR'} direction`}
     >
       {direction === 'rtl' ? (
-        <IconTextDirectionLtr size={22} stroke={1.5} />
+        <IconTextDirectionLtr size={22} stroke="1.5" />
       ) : (
-        <IconTextDirectionRtl size={22} stroke={1.5} />
+        <IconTextDirectionRtl size={22} stroke="1.5" />
       )}
     </HeaderControl>
   );

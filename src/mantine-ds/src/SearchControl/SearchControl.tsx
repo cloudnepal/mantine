@@ -15,7 +15,7 @@ export function SearchControl({ className, ...others }: SearchControlProps) {
   return (
     <UnstyledButton {...others} className={cx(classes.root, className)}>
       <Group spacing="xs">
-        <IconSearch size={14} stroke={1.5} />
+        <IconSearch size={14} stroke="1.5" />
         <Text size="sm" color="dimmed" pr={80}>
           Search
         </Text>

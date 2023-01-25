@@ -26,7 +26,7 @@ export interface RichTextEditorLinkControlProps extends Partial<RichTextEditorCo
 }
 
 const LinkIcon: RichTextEditorControlBaseProps['icon'] = ({ size, ...others }) => (
-  <IconLink size={size} stroke={1.5} {...others} />
+  <IconLink size={size} stroke="1.5" {...others} />
 );
 
 const defaultProps: Partial<RichTextEditorLinkControlProps> = {};
@@ -135,7 +135,7 @@ export const LinkControl = forwardRef<HTMLButtonElement, RichTextEditorLinkContr
                     className={classes.linkEditorExternalControl}
                     unstyled={unstyled}
                   >
-                    <IconExternalLink size={14} stroke={1.5} />
+                    <IconExternalLink size={14} stroke="1.5" />
                   </UnstyledButton>
                 </Tooltip>
               }

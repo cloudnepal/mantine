@@ -94,7 +94,7 @@ export default function TableOfContents({ headings, withTabs }: TableOfContentsP
       <div className={classes.inner}>
         <div>
           <div className={classes.header}>
-            <IconList size={20} stroke={1.5} />
+            <IconList size={20} stroke="1.5" />
             <Text className={classes.title}>Table of contents</Text>
           </div>
           <ScrollArea.Autosize maxHeight="calc(100vh - 140px)" type="scroll" offsetScrollbars>

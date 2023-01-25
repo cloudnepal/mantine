@@ -98,7 +98,7 @@ export function MdxPageTabs({ body, frontmatter, headings, siblings }: MdxPagePr
           >
             <TextInput
               autoFocus
-              icon={<IconSearch size={16} stroke={1.5} />}
+              icon={<IconSearch size={16} stroke="1.5" />}
               placeholder="Search props"
               mb={20}
               value={query}
